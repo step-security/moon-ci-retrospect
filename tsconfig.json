@@ -1,0 +1,10 @@
+{
+	"extends": ["@tsconfig/node20", "@tsconfig/strictest"],
+	"files": ["src/main.ts"],
+	"compilerOptions": {
+		"inlineSourceMap": true,
+		"declaration": false,
+		"module": "nodenext",
+		"moduleResolution": "nodenext"
+	}
+}

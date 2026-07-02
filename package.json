@@ -1,0 +1,31 @@
+{
+	"name": "@step-security/moon-ci-retrospect",
+	"version": "2.1.0",
+	"description": "Collects and displays moon ci and moon run results as a readable GitHub Actions job summary.",
+	"license": "MIT",
+	"author": "step-security",
+	"private": true,
+	"type": "module",
+	"dependencies": {
+		"@actions/core": "^1.10.1",
+		"@moonrepo/dev": "^3.1.1",
+		"axios": "^1.18.1"
+	},
+	"devDependencies": {
+		"@moonrepo/types": "^1.32.0",
+		"@tsconfig/node20": "^20.1.4",
+		"@tsconfig/strictest": "^2.0.5",
+		"@types/node": "^20.14.6",
+		"@vercel/ncc": "^0.38.3",
+		"execa": "^9.3.0",
+		"typescript": "^5.4.5",
+		"vitest": "^2.0.2"
+	},
+	"scripts": {
+		"dev": "tsc -w",
+		"build": "ncc build ./src/main.ts",
+		"typecheck": "tsc --noEmit",
+		"test": "vitest"
+	},
+	"packageManager": "yarn@4.15.0"
+}
