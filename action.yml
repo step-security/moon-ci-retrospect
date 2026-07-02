@@ -1,0 +1,7 @@
+name: Moonrepo CI Retrospect
+description: Collects and displays moon ci and moon run results as a readable GitHub Actions job summary.
+inputs: {}
+outputs: {}
+runs:
+  using: node24
+  main: dist/index.js
