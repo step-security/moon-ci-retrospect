@@ -12,7 +12,7 @@
 		"axios": "^1.18.1"
 	},
 	"devDependencies": {
-		"@moonrepo/types": "^1.32.0",
+		"@moonrepo/types": "^2.3.5",
 		"@tsconfig/node20": "^20.1.4",
 		"@tsconfig/strictest": "^2.0.5",
 		"@types/node": "^20.14.6",
